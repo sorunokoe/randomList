@@ -1,0 +1,36 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Masonry (1.1.0)
+  - Typhoon (4.0.8):
+    - Typhoon/DeallocNotifier (= 4.0.8)
+    - Typhoon/IntrospectionUtils (= 4.0.8)
+    - Typhoon/no-arc (= 4.0.8)
+  - Typhoon/DeallocNotifier (4.0.8)
+  - Typhoon/IntrospectionUtils (4.0.8)
+  - Typhoon/no-arc (4.0.8):
+    - Typhoon/IntrospectionUtils
+
+DEPENDENCIES:
+  - Bolts
+  - Masonry
+  - Typhoon
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Masonry
+    - Typhoon
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Typhoon: f8901ef1ad0e2fa520cda0f668492dd33353f7dc
+
+PODFILE CHECKSUM: 4e771b54b133b16ffca606aa00babb39f3884664
+
+COCOAPODS: 1.8.4
