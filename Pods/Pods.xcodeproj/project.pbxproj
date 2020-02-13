@@ -78,6 +78,7 @@
 		3905F77E657642483E2E6E0CAC056A82 /* TyphoonDefinition+Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA5D7EA90ADF77BE008CDD6F004CDE1 /* TyphoonDefinition+Config.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		393D23DE94B3042A383581F2BB8D79FF /* TyphoonBundledImageTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E63826156851D6037247D84F403199F /* TyphoonBundledImageTypeConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3AE9A17883DB4E15962F3F8A44065E5A /* TyphoonAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF59529C01676425C5EAC220C64ECC8 /* TyphoonAssembly.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3BFDC4C0A5D94D1DC9B676E3DE493BAF /* Pods-RainbowList-RainbowListTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C21D1D8DDDC8D7C7D91AF91F94447A /* Pods-RainbowList-RainbowListTests-dummy.m */; };
 		3D6752F50BEAA012CBB842BA555DA2D0 /* TyphoonBundleResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 698D2EEFBBFCE21911EC9131FAA7B0DD /* TyphoonBundleResource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3E3B76E9EF89460A378A080819D6283D /* TyphoonTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 603180B2B3736860D8F8A45E9D37DD9D /* TyphoonTypeConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3EBB3B316361B38D454A37436FD4D9C7 /* TyphoonViewControllerInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7523F6D77074C09D1C5595A61E9554 /* TyphoonViewControllerInjector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -109,7 +110,7 @@
 		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7281FB380BFC271595F7A36321338833 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4DC618BFD7F52863DE4B813641762BC2 /* TyphoonAssemblySelectorAdviser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454D99AF00BEE8D175D16BF13C83F11 /* TyphoonAssemblySelectorAdviser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4E3F42FC6E0EEDDDD074DF866D1E24B2 /* TyphoonGlobalConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = A8525FB080CC57EFE87C385C5B2B0B9F /* TyphoonGlobalConfigCollector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4F6140AB588BE441D8D82996546E7BD3 /* Pods-RainbowList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA173D9E35D8D67612FAD713407F9590 /* Pods-RainbowList-dummy.m */; };
+		4F6140AB588BE441D8D82996546E7BD3 /* Pods-RainbowList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D544BB5C4435FAAB59489E9ADEDC /* Pods-RainbowList-dummy.m */; };
 		4F6912C49839121F67C8199693D4C0E0 /* TyphoonParameterInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D4D025800ED0C05A3A24F77597F19A /* TyphoonParameterInjection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5031DFA26D1AAF77949486121549C3CA /* TyphoonBlockDefinition+InstanceBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5AF2E96D2E548865C132F05B0AD76 /* TyphoonBlockDefinition+InstanceBuilder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		50E457CE2FB775557CC59A96BDE10549 /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEA859808B6B9ECC7AE914847DD771A /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -323,7 +324,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		35027F69A48CC412C8974BD8C6795F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42465A188431886AB035275F049824D3;
+			remoteInfo = Bolts;
+		};
 		627DAFFCE5307B52794AF686FF1CC998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		711C08F2982B2D8C7B1B36B3052F9605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7BC7A068E56396BBE1DECFD19DDDEB;
+			remoteInfo = Typhoon;
+		};
+		77E5A898DE635902B7FCCABC23D721F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -378,7 +400,6 @@
 		11F57A29AC27F9F724826992DBEE9E93 /* TyphoonInjectionByFactoryReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByFactoryReference.h; path = Source/Definition/Injections/TyphoonInjectionByFactoryReference.h; sourceTree = "<group>"; };
 		132230219D1E86D43B4824C102CDF866 /* TyphoonStoryboardDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonStoryboardDefinition.h; path = Source/ios/Definition/TyphoonStoryboardDefinition.h; sourceTree = "<group>"; };
 		1325349AC68387A7E84F5F23B669957D /* TyphoonDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonDefinition.m; path = Source/Definition/TyphoonDefinition.m; sourceTree = "<group>"; };
-		1384D92C1AC976EBB391EE0A8385739B /* Pods-RainbowList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RainbowList-acknowledgements.markdown"; sourceTree = "<group>"; };
 		141F79FDBD23C5F4377E786662135D76 /* TyphoonViewHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonViewHelpers.m; path = Source/ios/Storyboard/TyphoonViewHelpers.m; sourceTree = "<group>"; };
 		14BE81548B8AC0D346462E2BCF0B3F5F /* TyphoonMethodSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonMethodSwizzler.h; path = Source/Utils/Swizzle/TyphoonMethodSwizzler.h; sourceTree = "<group>"; };
 		14C52D8BD258D46378D04D5E37603EAB /* TyphoonInjectedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectedObject.h; path = Source/Definition/AutoInjection/TyphoonInjectedObject.h; sourceTree = "<group>"; };
@@ -400,12 +421,14 @@
 		21EEB16C73C1E1003490232C2D6B19B2 /* NSArray+TyphoonManualEnumeration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+TyphoonManualEnumeration.m"; path = "Source/Utils/NSArray+TyphoonManualEnumeration.m"; sourceTree = "<group>"; };
 		22539F51025D18601C28173E453DFAA5 /* TyphoonPassThroughTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonPassThroughTypeConverter.m; path = Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.m; sourceTree = "<group>"; };
 		22E464EA6831B061A82A6F2490349CBB /* TyphoonBlockDefinitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonBlockDefinitionController.h; path = Source/Definition/Internal/TyphoonBlockDefinitionController.h; sourceTree = "<group>"; };
+		23C21D1D8DDDC8D7C7D91AF91F94447A /* Pods-RainbowList-RainbowListTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RainbowList-RainbowListTests-dummy.m"; sourceTree = "<group>"; };
 		2454D99AF00BEE8D175D16BF13C83F11 /* TyphoonAssemblySelectorAdviser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonAssemblySelectorAdviser.m; path = Source/Factory/Internal/TyphoonAssemblySelectorAdviser.m; sourceTree = "<group>"; };
 		24789BBE2599911F737B94BD9BEDB8D1 /* TyphoonResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonResource.h; path = Source/Configuration/Resource/TyphoonResource.h; sourceTree = "<group>"; };
 		24D45E1FBF8D1230AAD2076EBC2B6588 /* TyphoonInjectionByFactoryReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionByFactoryReference.m; path = Source/Definition/Injections/TyphoonInjectionByFactoryReference.m; sourceTree = "<group>"; };
 		25A9596AFBC5EC8B29A6DAD57EFA015A /* TyphoonDefinitionRegisterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonDefinitionRegisterer.m; path = Source/Factory/TyphoonDefinitionRegisterer.m; sourceTree = "<group>"; };
 		279D725A6A6684645F4C8202EB9D60A1 /* TyphoonInjectionByObjectInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByObjectInstance.h; path = Source/Definition/Injections/TyphoonInjectionByObjectInstance.h; sourceTree = "<group>"; };
 		2CE2FC3927B827E76DBCEEA8FA254D7F /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		2D26D544BB5C4435FAAB59489E9ADEDC /* Pods-RainbowList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RainbowList-dummy.m"; sourceTree = "<group>"; };
 		2EA24F6940EB0A726A3FE944173C5F06 /* TyphoonIntrospectionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonIntrospectionUtils.h; path = Source/Utils/TyphoonIntrospectionUtils.h; sourceTree = "<group>"; };
 		310027AC4907F027AC8A63148EC5D2C2 /* TyphoonTypeDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonTypeDescriptor.m; path = Source/TypeConversion/TyphoonTypeDescriptor.m; sourceTree = "<group>"; };
 		3202A0CF47C853A11FA9552EA07710F2 /* TyphoonDefinition+Storyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TyphoonDefinition+Storyboard.m"; path = "Source/ios/Storyboard/TyphoonDefinition+Storyboard.m"; sourceTree = "<group>"; };
@@ -437,7 +460,6 @@
 		42C7DB3851FB32CC44C5E80F54820F2E /* TyphoonDefinition+Infrastructure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TyphoonDefinition+Infrastructure.h"; path = "Source/Definition/Infrastructure/TyphoonDefinition+Infrastructure.h"; sourceTree = "<group>"; };
 		4679888ED1ADBE9C972A75E5209B4F96 /* TyphoonInjectionByObjectInstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionByObjectInstance.m; path = Source/Definition/Injections/TyphoonInjectionByObjectInstance.m; sourceTree = "<group>"; };
 		4789DDB91FDD1F3891C1AE6AEFB6F752 /* TyphoonInjectionByConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionByConfig.m; path = Source/Definition/Injections/TyphoonInjectionByConfig.m; sourceTree = "<group>"; };
-		4858BD80E2A600B95C13FFCD7E632988 /* Pods-RainbowList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RainbowList-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A0BDB764906F77B3DE3E6F1DB889720 /* TyphoonDefinition+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TyphoonDefinition+Config.m"; path = "Source/Configuration/ConfigPostProcessor/TyphoonDefinition+Config.m"; sourceTree = "<group>"; };
 		4B48C32C416B28FF66F0268C61001FCF /* NSInvocation+TCFCustomImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+TCFCustomImplementation.m"; path = "Source/Factory/Internal/NSInvocation+TCFCustomImplementation.m"; sourceTree = "<group>"; };
 		4CE8CA61EB7884D409E8C5FA18673A37 /* TyphoonGlobalConfigCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonGlobalConfigCollector.h; path = Source/Configuration/GlobalConfigResolver/TyphoonGlobalConfigCollector.h; sourceTree = "<group>"; };
@@ -498,6 +520,7 @@
 		70ED465A3992DCE5796B8149C4B7BBA4 /* TyphoonTypeConversionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonTypeConversionUtils.h; path = Source/TypeConversion/TyphoonTypeConversionUtils.h; sourceTree = "<group>"; };
 		7115839386FFE52A0A9E1964F41D38C3 /* TyphoonInjectionByComponentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByComponentFactory.h; path = Source/Definition/Injections/TyphoonInjectionByComponentFactory.h; sourceTree = "<group>"; };
 		7281FB380BFC271595F7A36321338833 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		72F9B71D0C32A292BE3DF646BCDBA521 /* Pods-RainbowList-RainbowListTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RainbowList-RainbowListTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		74B9A267AFC482DCA073568E84FAF6CA /* TyphoonStoryboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonStoryboard.h; path = Source/ios/Storyboard/TyphoonStoryboard.h; sourceTree = "<group>"; };
 		759EC602C1A368EBDBF5338D040982F8 /* Collections+CustomInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Collections+CustomInjection.h"; path = "Source/Definition/Internal/Collections+CustomInjection.h"; sourceTree = "<group>"; };
 		76F55EA30F10011FD826073ADD5CC12D /* TyphoonViewControllerNibResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonViewControllerNibResolver.m; path = Source/ios/Nib/TyphoonViewControllerNibResolver.m; sourceTree = "<group>"; };
@@ -512,6 +535,7 @@
 		7C6B962ADFE34E4324154A1B889AD4DD /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		7C70B8F6AE2AD8291772A0595CE22E0A /* TyphoonMethod+InstanceBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TyphoonMethod+InstanceBuilder.h"; path = "Source/Definition/Method/Internal/TyphoonMethod+InstanceBuilder.h"; sourceTree = "<group>"; };
 		7D34B2D02C81722471C45589B2AD155B /* TyphoonStoryboardDefinitionContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonStoryboardDefinitionContext.m; path = Source/ios/Definition/TyphoonStoryboardDefinitionContext.m; sourceTree = "<group>"; };
+		7DA590235BD28C7DF9828EF9E9AF5AFD /* Pods-RainbowList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RainbowList-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EE6308F5D2CA853D9722869FD538956 /* TyphoonAbstractDetachableComponentFactoryPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonAbstractDetachableComponentFactoryPostProcessor.m; path = Source/Configuration/TyphoonAbstractDetachableComponentFactoryPostProcessor.m; sourceTree = "<group>"; };
 		7F1AEB2AB819BF009E749CD9422243AA /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		81265EEABCFFB342326482422C716945 /* TyphoonOrdered.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonOrdered.h; path = Source/Configuration/TyphoonOrdered.h; sourceTree = "<group>"; };
@@ -563,6 +587,7 @@
 		A07DA141463858103201422FE0AAA57C /* TyphoonPatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonPatcher.m; path = Source/Test/Patcher/TyphoonPatcher.m; sourceTree = "<group>"; };
 		A240E7A0CCBB068340F55A4A444931A8 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		A436D21EF586DF792EF69E5893560AD8 /* TyphoonConfigPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonConfigPostProcessor.h; path = Source/Configuration/ConfigPostProcessor/TyphoonConfigPostProcessor.h; sourceTree = "<group>"; };
+		A44055B5B638D43676E01E708118143B /* Pods-RainbowList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RainbowList-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4DFB6DB2651A8D3203BB03F76876DB3 /* TyphoonInjectionByCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByCollection.h; path = Source/Definition/Injections/TyphoonInjectionByCollection.h; sourceTree = "<group>"; };
 		A54D7E617C3B4DE155D2937773C744C8 /* TyphoonLoadedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonLoadedView.h; path = Source/ios/Storyboard/TyphoonLoadedView.h; sourceTree = "<group>"; };
 		A6A1DEC0C6FA4B928B645C7B29045A00 /* TyphoonAbstractInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonAbstractInjection.h; path = Source/Definition/Injections/TyphoonAbstractInjection.h; sourceTree = "<group>"; };
@@ -594,7 +619,6 @@
 		B9662771269F18580306FA754992DBBA /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		BBD4501A71C9DE8B4B2E3BE95CE7043C /* TyphoonParentReferenceHydratingPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonParentReferenceHydratingPostProcessor.h; path = Source/Factory/Internal/TyphoonParentReferenceHydratingPostProcessor.h; sourceTree = "<group>"; };
 		BDFD8968C1ECF54736383EE89998BBF1 /* TyphoonDefinition+Option.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TyphoonDefinition+Option.h"; path = "Source/Configuration/DefinitionOptionConfiguration/TyphoonDefinition+Option.h"; sourceTree = "<group>"; };
-		BE1153B30B62C4CA105544D00A0C2E15 /* Pods-RainbowList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowList.debug.xcconfig"; sourceTree = "<group>"; };
 		C0E3060F2317C9DBFA8499DA4B6B9298 /* TyphoonRuntimeArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonRuntimeArguments.h; path = Source/Factory/Internal/TyphoonRuntimeArguments.h; sourceTree = "<group>"; };
 		C13FD80F98A539F404D79670918BFFBF /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		C1EB2D14D5E47EE18C396CC313E120E8 /* TyphoonAssemblyDefinitionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonAssemblyDefinitionBuilder.h; path = Source/Factory/Internal/TyphoonAssemblyDefinitionBuilder.h; sourceTree = "<group>"; };
@@ -632,11 +656,13 @@
 		DD8E1B87AAB765DC1C7C12FF9D627BFA /* NSObject+DeallocNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DeallocNotification.h"; path = "Source/Utils/NSObject+DeallocNotification.h"; sourceTree = "<group>"; };
 		DDAAF522565294C909127D4502B5B2A2 /* TyphoonInjectionByComponentFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionByComponentFactory.m; path = Source/Definition/Injections/TyphoonInjectionByComponentFactory.m; sourceTree = "<group>"; };
 		DE6FF9317E34B7F255C463534284593C /* TyphoonPropertyStyleConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonPropertyStyleConfiguration.m; path = Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.m; sourceTree = "<group>"; };
+		DF96147E3747909A8FAFA997E74B32B2 /* libPods-RainbowList-RainbowListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RainbowList-RainbowListTests.a"; path = "libPods-RainbowList-RainbowListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC763468224F3F98FE08ACD616B7B71 /* TyphoonWeakComponentsPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonWeakComponentsPool.m; path = Source/Factory/Pool/TyphoonWeakComponentsPool.m; sourceTree = "<group>"; };
 		E2819B170016609DBE9FABB776750AE1 /* NSNullTypeConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSNullTypeConverter.h; path = Source/TypeConversion/Converters/NSNullTypeConverter.h; sourceTree = "<group>"; };
 		E33D699D06A444CC490AC9BF1A13B8CE /* TyphoonMemoryManagementUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonMemoryManagementUtils.h; path = Source/Factory/Internal/TyphoonMemoryManagementUtils.h; sourceTree = "<group>"; };
 		E353D5F58BA087BA38FF5CFEEB620020 /* TyphoonColorConversionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonColorConversionUtils.m; path = Source/TypeConversion/Helpers/TyphoonColorConversionUtils.m; sourceTree = "<group>"; };
 		E3E265DBD0E0AE0087114CE5FB8D6B6A /* TyphoonConfigPostProcessor+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TyphoonConfigPostProcessor+Internal.h"; path = "Source/Configuration/ConfigPostProcessor/Internal/TyphoonConfigPostProcessor+Internal.h"; sourceTree = "<group>"; };
+		E3E8E753BCF565B41161CE5DD556CE75 /* Pods-RainbowList-RainbowListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowList-RainbowListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4183AEAEBBC4EBF0EFA9420F3ACACD3 /* TyphoonBlockComponentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonBlockComponentFactory.h; path = Source/Factory/Internal/TyphoonBlockComponentFactory.h; sourceTree = "<group>"; };
 		E4869F3826686BF02990E1F5071B71E2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		E5B81B0348D13F6F7F77DFC9CF67EB27 /* TyphoonUIColorTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonUIColorTypeConverter.m; path = Source/ios/TypeConversion/Converters/TyphoonUIColorTypeConverter.m; sourceTree = "<group>"; };
@@ -647,7 +673,6 @@
 		E7B213A994DD3F10B04A46DD904CC2D8 /* TyphoonAssemblyAdviser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonAssemblyAdviser.h; path = Source/Factory/Internal/TyphoonAssemblyAdviser.h; sourceTree = "<group>"; };
 		E8205B7ABFD98CAE6AD66D7A95C2E180 /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
 		E8F19529EB4E8412F9D78CB010D47661 /* TyphoonPathResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonPathResource.h; path = Source/Configuration/Resource/TyphoonPathResource.h; sourceTree = "<group>"; };
-		EA173D9E35D8D67612FAD713407F9590 /* Pods-RainbowList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RainbowList-dummy.m"; sourceTree = "<group>"; };
 		EA2D1CA2FED2151010CFE3F8F54785D6 /* UIViewController+TyphoonStoryboardIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TyphoonStoryboardIntegration.m"; path = "Source/ios/Storyboard/Internal/UIViewController+TyphoonStoryboardIntegration.m"; sourceTree = "<group>"; };
 		EA4E94C514513FC6DCB4EA0CD7C8D81F /* TyphoonComponentFactory+InstanceBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TyphoonComponentFactory+InstanceBuilder.h"; path = "Source/Factory/Internal/TyphoonComponentFactory+InstanceBuilder.h"; sourceTree = "<group>"; };
 		EB7E47096CD80772A5BB47D4260928F0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
@@ -655,7 +680,10 @@
 		ECD76586E886F07CD87FB4E9D4D9497B /* UIView+TyphoonOutletTransfer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TyphoonOutletTransfer.m"; path = "Source/ios/Storyboard/UIView+TyphoonOutletTransfer.m"; sourceTree = "<group>"; };
 		ED74D814C55B205021497C8AB0008E0F /* NSLayoutConstraint+TyphoonOutletTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+TyphoonOutletTransfer.h"; path = "Source/ios/Storyboard/NSLayoutConstraint+TyphoonOutletTransfer.h"; sourceTree = "<group>"; };
 		EDDD88249C4722841B531F2584BC8B21 /* NSNullTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSNullTypeConverter.m; path = Source/TypeConversion/Converters/NSNullTypeConverter.m; sourceTree = "<group>"; };
+		EDED6F5D2FC7D9EB85E9AD2A2AFFB998 /* Pods-RainbowList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowList.debug.xcconfig"; sourceTree = "<group>"; };
+		F278F0F13F0295D01B49F9EFE281B151 /* Pods-RainbowList-RainbowListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowList-RainbowListTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2AF4CF9F142FA3C7F13BD009C2C9E2C /* NSObject+PropertyInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PropertyInjection.h"; path = "Source/Utils/NSObject+PropertyInjection.h"; sourceTree = "<group>"; };
+		F3488DB4EACC86D5686A5531B905A51F /* Pods-RainbowList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowList.release.xcconfig"; sourceTree = "<group>"; };
 		F450B8333A01040AD5419BC1A2A2D334 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		F520E2253928E948FD006BCB86864AC5 /* TyphoonDefinition+InstanceBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TyphoonDefinition+InstanceBuilder.m"; path = "Source/Definition/Internal/TyphoonDefinition+InstanceBuilder.m"; sourceTree = "<group>"; };
 		F5F585E9DBD84143DAE221A52AF95726 /* TyphoonOptionMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonOptionMatcher.m; path = Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher.m; sourceTree = "<group>"; };
@@ -671,14 +699,21 @@
 		FB6A98C79332C3EC10685544B880441A /* TyphoonStartup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonStartup.h; path = Source/Configuration/Startup/TyphoonStartup.h; sourceTree = "<group>"; };
 		FBB2B6F64C3E4696AC17D831EE9BCE50 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		FCAD31F86B79F143A849966BE0AE65FD /* TyphoonTypeConverterRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonTypeConverterRegistry.m; path = Source/TypeConversion/TyphoonTypeConverterRegistry.m; sourceTree = "<group>"; };
+		FCB37F40780F1B9BD4038B66C3AFC3C6 /* Pods-RainbowList-RainbowListTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RainbowList-RainbowListTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCE0E9C05BC24279630123032A6776E6 /* TyphoonWeakComponentsPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonWeakComponentsPool.h; path = Source/Factory/Pool/TyphoonWeakComponentsPool.h; sourceTree = "<group>"; };
 		FDAFE2C0A91D50E946B106C3FF0175A7 /* TyphoonCollaboratingAssemblyProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonCollaboratingAssemblyProxy.h; path = Source/Factory/Internal/TyphoonCollaboratingAssemblyProxy.h; sourceTree = "<group>"; };
-		FE9A9998FB2C22A0C47D78F680F72CA7 /* Pods-RainbowList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowList.release.xcconfig"; sourceTree = "<group>"; };
 		FEE371BBB7CE95F8A243F6AC7FABB4C5 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C03D981BE1BFA9AFA04FDB9FF2C315 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -716,15 +751,13 @@
 			name = IntrospectionUtils;
 			sourceTree = "<group>";
 		};
-		17260517F462F513DC49F0EE0C8991FB /* Products */ = {
+		20EE3BDBA78F000B2639A4699C2CB948 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F84B331B5D6AAF1548DD1BB004AE5C2A /* libBolts.a */,
-				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
-				54956530BB22CB2F800F0B65C0688A98 /* libPods-RainbowList.a */,
-				6C08E1C10481BD7FAC0F4A2019635945 /* libTyphoon.a */,
+				AECD3BC868FB87FDCD250CDE22A27C30 /* Pods-RainbowList */,
+				3E1E24BDBCA24CA8EB33EAA0B9C3EBAE /* Pods-RainbowList-RainbowListTests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3CF54CD3BCE715B66518510BD41DBD3C /* Support Files */ = {
@@ -736,6 +769,19 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		3E1E24BDBCA24CA8EB33EAA0B9C3EBAE /* Pods-RainbowList-RainbowListTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB37F40780F1B9BD4038B66C3AFC3C6 /* Pods-RainbowList-RainbowListTests-acknowledgements.markdown */,
+				72F9B71D0C32A292BE3DF646BCDBA521 /* Pods-RainbowList-RainbowListTests-acknowledgements.plist */,
+				23C21D1D8DDDC8D7C7D91AF91F94447A /* Pods-RainbowList-RainbowListTests-dummy.m */,
+				E3E8E753BCF565B41161CE5DD556CE75 /* Pods-RainbowList-RainbowListTests.debug.xcconfig */,
+				F278F0F13F0295D01B49F9EFE281B151 /* Pods-RainbowList-RainbowListTests.release.xcconfig */,
+			);
+			name = "Pods-RainbowList-RainbowListTests";
+			path = "Target Support Files/Pods-RainbowList-RainbowListTests";
 			sourceTree = "<group>";
 		};
 		59FE20595BCFD0893AC385796B63A7E0 /* AppLinks */ = {
@@ -820,14 +866,26 @@
 			name = "no-arc";
 			sourceTree = "<group>";
 		};
-		9E471A365E6FB2FF7E6AE1735DC49251 /* Pods-RainbowList */ = {
+		9F81A367608C28AC2B0A7EE20EC48D4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1384D92C1AC976EBB391EE0A8385739B /* Pods-RainbowList-acknowledgements.markdown */,
-				4858BD80E2A600B95C13FFCD7E632988 /* Pods-RainbowList-acknowledgements.plist */,
-				EA173D9E35D8D67612FAD713407F9590 /* Pods-RainbowList-dummy.m */,
-				BE1153B30B62C4CA105544D00A0C2E15 /* Pods-RainbowList.debug.xcconfig */,
-				FE9A9998FB2C22A0C47D78F680F72CA7 /* Pods-RainbowList.release.xcconfig */,
+				F84B331B5D6AAF1548DD1BB004AE5C2A /* libBolts.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				54956530BB22CB2F800F0B65C0688A98 /* libPods-RainbowList.a */,
+				DF96147E3747909A8FAFA997E74B32B2 /* libPods-RainbowList-RainbowListTests.a */,
+				6C08E1C10481BD7FAC0F4A2019635945 /* libTyphoon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECD3BC868FB87FDCD250CDE22A27C30 /* Pods-RainbowList */ = {
+			isa = PBXGroup;
+			children = (
+				7DA590235BD28C7DF9828EF9E9AF5AFD /* Pods-RainbowList-acknowledgements.markdown */,
+				A44055B5B638D43676E01E708118143B /* Pods-RainbowList-acknowledgements.plist */,
+				2D26D544BB5C4435FAAB59489E9ADEDC /* Pods-RainbowList-dummy.m */,
+				EDED6F5D2FC7D9EB85E9AD2A2AFFB998 /* Pods-RainbowList.debug.xcconfig */,
+				F3488DB4EACC86D5686A5531B905A51F /* Pods-RainbowList.release.xcconfig */,
 			);
 			name = "Pods-RainbowList";
 			path = "Target Support Files/Pods-RainbowList";
@@ -856,8 +914,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				CECC02A1BD91BB8C0EA315B6557B21DC /* Pods */,
-				17260517F462F513DC49F0EE0C8991FB /* Products */,
-				FA11AD940195F7BBE7817C2117A71D8E /* Targets Support Files */,
+				9F81A367608C28AC2B0A7EE20EC48D4C /* Products */,
+				20EE3BDBA78F000B2639A4699C2CB948 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1170,14 +1228,6 @@
 			path = "../Target Support Files/Bolts";
 			sourceTree = "<group>";
 		};
-		FA11AD940195F7BBE7817C2117A71D8E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9E471A365E6FB2FF7E6AE1735DC49251 /* Pods-RainbowList */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1383,6 +1433,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5F60ECB1F7EC1F5585AE7CE399C08EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1457,6 +1514,26 @@
 			productReference = 6C08E1C10481BD7FAC0F4A2019635945 /* libTyphoon.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		75384786DB0C975BFCAF99011D4D87AD /* Pods-RainbowList-RainbowListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1A1D382BAB2671CD2A2866F3749C64 /* Build configuration list for PBXNativeTarget "Pods-RainbowList-RainbowListTests" */;
+			buildPhases = (
+				F5F60ECB1F7EC1F5585AE7CE399C08EC /* Headers */,
+				916FB3576AF5DBE60C2D0048A4CBE1C1 /* Sources */,
+				98C03D981BE1BFA9AFA04FDB9FF2C315 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC591E39E31A22CD9762BDB6FA6C579 /* PBXTargetDependency */,
+				3DF3C0B95D8635012EC23C5EE9269D0C /* PBXTargetDependency */,
+				A500138398D9D1124A51E168F72FA49F /* PBXTargetDependency */,
+			);
+			name = "Pods-RainbowList-RainbowListTests";
+			productName = "Pods-RainbowList-RainbowListTests";
+			productReference = DF96147E3747909A8FAFA997E74B32B2 /* libPods-RainbowList-RainbowListTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1475,13 +1552,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 17260517F462F513DC49F0EE0C8991FB /* Products */;
+			productRefGroup = 9F81A367608C28AC2B0A7EE20EC48D4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				42465A188431886AB035275F049824D3 /* Bolts */,
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				1345D470ACBDEF7233E231FD39006BDA /* Pods-RainbowList */,
+				75384786DB0C975BFCAF99011D4D87AD /* Pods-RainbowList-RainbowListTests */,
 				6D7BC7A068E56396BBE1DECFD19DDDEB /* Typhoon */,
 			);
 		};
@@ -1526,6 +1604,14 @@
 				59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */,
 				C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916FB3576AF5DBE60C2D0048A4CBE1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFDC4C0A5D94D1DC9B676E3DE493BAF /* Pods-RainbowList-RainbowListTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1658,6 +1744,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3DF3C0B95D8635012EC23C5EE9269D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 77E5A898DE635902B7FCCABC23D721F0 /* PBXContainerItemProxy */;
+		};
 		756413BA0ABFC9ACCFE6494563E05287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bolts;
@@ -1670,11 +1762,23 @@
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 627DAFFCE5307B52794AF686FF1CC998 /* PBXContainerItemProxy */;
 		};
+		A500138398D9D1124A51E168F72FA49F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Typhoon;
+			target = 6D7BC7A068E56396BBE1DECFD19DDDEB /* Typhoon */;
+			targetProxy = 711C08F2982B2D8C7B1B36B3052F9605 /* PBXContainerItemProxy */;
+		};
 		B1E5152395958274DE42E9C2C6DBEA42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Typhoon;
 			target = 6D7BC7A068E56396BBE1DECFD19DDDEB /* Typhoon */;
 			targetProxy = AC416899DBF2041A15B912E8A30BD32B /* PBXContainerItemProxy */;
+		};
+		BCC591E39E31A22CD9762BDB6FA6C579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bolts;
+			target = 42465A188431886AB035275F049824D3 /* Bolts */;
+			targetProxy = 35027F69A48CC412C8974BD8C6795F40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1773,6 +1877,28 @@
 			};
 			name = Debug;
 		};
+		8A425A9F7BEEA99CA226792041C4B2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E8E753BCF565B41161CE5DD556CE75 /* Pods-RainbowList-RainbowListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1861,6 +1987,29 @@
 			};
 			name = Release;
 		};
+		B94B59CF5B06FF66CE60E528A4955313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F278F0F13F0295D01B49F9EFE281B151 /* Pods-RainbowList-RainbowListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D3890BD2B5FEC53129C0C074D660AA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41EAFEE97B8F4899BDE9569FAC165D4A /* Bolts.xcconfig */;
@@ -1886,7 +2035,7 @@
 		};
 		D6DFAD55B45573B8BD829F93DF21F90F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE9A9998FB2C22A0C47D78F680F72CA7 /* Pods-RainbowList.release.xcconfig */;
+			baseConfigurationReference = F3488DB4EACC86D5686A5531B905A51F /* Pods-RainbowList.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1969,7 +2118,7 @@
 		};
 		FC54B972CDC802D995B734EFA1D13E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE1153B30B62C4CA105544D00A0C2E15 /* Pods-RainbowList.debug.xcconfig */;
+			baseConfigurationReference = EDED6F5D2FC7D9EB85E9AD2A2AFFB998 /* Pods-RainbowList.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2015,6 +2164,15 @@
 			buildConfigurations = (
 				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
 				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1A1D382BAB2671CD2A2866F3749C64 /* Build configuration list for PBXNativeTarget "Pods-RainbowList-RainbowListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A425A9F7BEEA99CA226792041C4B2DC /* Debug */,
+				B94B59CF5B06FF66CE60E528A4955313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

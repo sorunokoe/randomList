@@ -28,13 +28,12 @@
 
 -(BFTask *)downloadImage{
     BFTaskCompletionSource* source = [BFTaskCompletionSource taskCompletionSource];
-    NSURL* url = [NSURL URLWithString:@"https://picsum.photos/200/200"];
-    NSData* data = [NSData dataWithContentsOfURL:url];
+    NSData* data = [NSData dataWithContentsOfURL:_serviceURL];
     UIImage* image = [UIImage imageWithData:data];
     if (image != NULL) {
         [source setResult:image];
     }else{
-        NSError* error = [NSError errorWithDomain:url.absoluteString code:-1 userInfo:nil];
+        NSError* error = [NSError errorWithDomain:_serviceURL.absoluteString code:-1 userInfo:nil];
         [source setError:error];
     }
     return source.task;

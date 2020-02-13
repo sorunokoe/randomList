@@ -11,7 +11,6 @@
 		1F32F7B223F4099F00685A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F32F7B123F4099F00685A3A /* Assets.xcassets */; };
 		1F32F7B523F4099F00685A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F32F7B323F4099F00685A3A /* LaunchScreen.storyboard */; };
 		1F32F7B823F4099F00685A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7B723F4099F00685A3A /* main.m */; };
-		1F32F7C223F4099F00685A3A /* RainbowListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7C123F4099F00685A3A /* RainbowListTests.m */; };
 		1F32F7CD23F4099F00685A3A /* RainbowListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7CC23F4099F00685A3A /* RainbowListUITests.m */; };
 		1F32F7E623F435D200685A3A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7E523F435D200685A3A /* MainViewController.m */; };
 		1F32F7E923F5144E00685A3A /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7E823F5144E00685A3A /* MainPresenter.m */; };
@@ -19,6 +18,12 @@
 		1F32F7EF23F515E600685A3A /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7EE23F515E600685A3A /* MainRouter.m */; };
 		1F32F7F723F52AE900685A3A /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7F623F52AE900685A3A /* ImageCollectionViewCell.m */; };
 		1F32F7FC23F5437700685A3A /* ImageRandomService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F7FB23F5437700685A3A /* ImageRandomService.m */; };
+		1F32F80223F5675E00685A3A /* MainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F80123F5675E00685A3A /* MainAssembly.m */; };
+		1F32F80523F56AEF00685A3A /* ServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F80423F56AEF00685A3A /* ServiceAssembly.m */; };
+		1F32F80B23F56BB300685A3A /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F32F80A23F56BB300685A3A /* Configuration.plist */; };
+		1F32F80E23F56E0A00685A3A /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F80D23F56E0A00685A3A /* ApplicationAssembly.m */; };
+		1F32F81523F582C400685A3A /* ImageServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F81423F582C400685A3A /* ImageServiceTests.m */; };
+		7BC5398C80C6E7B6665EF39B /* libPods-RainbowList-RainbowListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE088D10671EA4C35F741B5 /* libPods-RainbowList-RainbowListTests.a */; };
 		9ED44F8CE87106E41356CF01 /* libPods-RainbowList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958FE7F804078A05416C77FD /* libPods-RainbowList.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE088D10671EA4C35F741B5 /* libPods-RainbowList-RainbowListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowList-RainbowListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F32F7A223F4099E00685A3A /* RainbowList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F32F7A523F4099E00685A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F32F7A623F4099E00685A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,7 +54,6 @@
 		1F32F7B623F4099F00685A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F32F7B723F4099F00685A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F32F7BD23F4099F00685A3A /* RainbowListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F32F7C123F4099F00685A3A /* RainbowListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowListTests.m; sourceTree = "<group>"; };
 		1F32F7C323F4099F00685A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F32F7C823F4099F00685A3A /* RainbowListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F32F7CC23F4099F00685A3A /* RainbowListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowListUITests.m; sourceTree = "<group>"; };
@@ -67,9 +72,19 @@
 		1F32F7FA23F5437700685A3A /* ImageRandomService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRandomService.h; sourceTree = "<group>"; };
 		1F32F7FB23F5437700685A3A /* ImageRandomService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRandomService.m; sourceTree = "<group>"; };
 		1F32F7FE23F543DB00685A3A /* ImageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageService.h; sourceTree = "<group>"; };
+		1F32F80023F5675E00685A3A /* MainAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAssembly.h; sourceTree = "<group>"; };
+		1F32F80123F5675E00685A3A /* MainAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAssembly.m; sourceTree = "<group>"; };
+		1F32F80323F56AEF00685A3A /* ServiceAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceAssembly.h; sourceTree = "<group>"; };
+		1F32F80423F56AEF00685A3A /* ServiceAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceAssembly.m; sourceTree = "<group>"; };
+		1F32F80A23F56BB300685A3A /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		1F32F80C23F56E0A00685A3A /* ApplicationAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		1F32F80D23F56E0A00685A3A /* ApplicationAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
+		1F32F81423F582C400685A3A /* ImageServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageServiceTests.m; sourceTree = "<group>"; };
 		6CC16CD47D0471ECF757722F /* Pods-RainbowList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList.release.xcconfig"; path = "Target Support Files/Pods-RainbowList/Pods-RainbowList.release.xcconfig"; sourceTree = "<group>"; };
 		958FE7F804078A05416C77FD /* libPods-RainbowList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82198A0093E871EC9DF415D /* Pods-RainbowList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList.debug.xcconfig"; path = "Target Support Files/Pods-RainbowList/Pods-RainbowList.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC971AB60E72A3AB3C0F83A /* Pods-RainbowList-RainbowListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList-RainbowListTests.debug.xcconfig"; path = "Target Support Files/Pods-RainbowList-RainbowListTests/Pods-RainbowList-RainbowListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2477704CEBBFB5732A6F376 /* Pods-RainbowList-RainbowListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList-RainbowListTests.release.xcconfig"; path = "Target Support Files/Pods-RainbowList-RainbowListTests/Pods-RainbowList-RainbowListTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC5398C80C6E7B6665EF39B /* libPods-RainbowList-RainbowListTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				958FE7F804078A05416C77FD /* libPods-RainbowList.a */,
+				1AE088D10671EA4C35F741B5 /* libPods-RainbowList-RainbowListTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,13 +148,13 @@
 		1F32F7A423F4099E00685A3A /* RainbowList */ = {
 			isa = PBXGroup;
 			children = (
-				1F32F7B723F4099F00685A3A /* main.m */,
 				1F32F7A523F4099E00685A3A /* AppDelegate.h */,
 				1F32F7A623F4099E00685A3A /* AppDelegate.m */,
-				1F32F7B623F4099F00685A3A /* Info.plist */,
+				1F32F80F23F5703000685A3A /* Supporting Files */,
 				1F32F7F923F5403300685A3A /* Models */,
 				1F32F7DB23F409CE00685A3A /* Resources */,
 				1F32F7F823F5402300685A3A /* Services */,
+				1F32F7FF23F566A700685A3A /* Assembly */,
 				1F32F7DA23F409AE00685A3A /* Modules */,
 			);
 			path = RainbowList;
@@ -146,7 +163,7 @@
 		1F32F7C023F4099F00685A3A /* RainbowListTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F32F7C123F4099F00685A3A /* RainbowListTests.m */,
+				1F32F81323F582B200685A3A /* Services */,
 				1F32F7C323F4099F00685A3A /* Info.plist */,
 			);
 			path = RainbowListTests;
@@ -229,11 +246,44 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		1F32F7FF23F566A700685A3A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1F32F80C23F56E0A00685A3A /* ApplicationAssembly.h */,
+				1F32F80D23F56E0A00685A3A /* ApplicationAssembly.m */,
+				1F32F80023F5675E00685A3A /* MainAssembly.h */,
+				1F32F80123F5675E00685A3A /* MainAssembly.m */,
+				1F32F80323F56AEF00685A3A /* ServiceAssembly.h */,
+				1F32F80423F56AEF00685A3A /* ServiceAssembly.m */,
+				1F32F80A23F56BB300685A3A /* Configuration.plist */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		1F32F80F23F5703000685A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F32F7B723F4099F00685A3A /* main.m */,
+				1F32F7B623F4099F00685A3A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F32F81323F582B200685A3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F32F81423F582C400685A3A /* ImageServiceTests.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A65CA5E591E08C78429AD7B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A82198A0093E871EC9DF415D /* Pods-RainbowList.debug.xcconfig */,
 				6CC16CD47D0471ECF757722F /* Pods-RainbowList.release.xcconfig */,
+				ACC971AB60E72A3AB3C0F83A /* Pods-RainbowList-RainbowListTests.debug.xcconfig */,
+				C2477704CEBBFB5732A6F376 /* Pods-RainbowList-RainbowListTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -263,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F32F7D423F4099F00685A3A /* Build configuration list for PBXNativeTarget "RainbowListTests" */;
 			buildPhases = (
+				A92E993EEA8E78C9589C2394 /* [CP] Check Pods Manifest.lock */,
 				1F32F7B923F4099F00685A3A /* Sources */,
 				1F32F7BA23F4099F00685A3A /* Frameworks */,
 				1F32F7BB23F4099F00685A3A /* Resources */,
@@ -342,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F32F80B23F56BB300685A3A /* Configuration.plist in Resources */,
 				1F32F7B523F4099F00685A3A /* LaunchScreen.storyboard in Resources */,
 				1F32F7B223F4099F00685A3A /* Assets.xcassets in Resources */,
 			);
@@ -364,6 +416,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A92E993EEA8E78C9589C2394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainbowList-RainbowListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DF41351EB88F9CB6C780DCCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,9 +470,12 @@
 				1F32F7A723F4099E00685A3A /* AppDelegate.m in Sources */,
 				1F32F7EF23F515E600685A3A /* MainRouter.m in Sources */,
 				1F32F7B823F4099F00685A3A /* main.m in Sources */,
+				1F32F80523F56AEF00685A3A /* ServiceAssembly.m in Sources */,
 				1F32F7EC23F5145B00685A3A /* MainInteractor.m in Sources */,
+				1F32F80E23F56E0A00685A3A /* ApplicationAssembly.m in Sources */,
 				1F32F7E623F435D200685A3A /* MainViewController.m in Sources */,
 				1F32F7FC23F5437700685A3A /* ImageRandomService.m in Sources */,
+				1F32F80223F5675E00685A3A /* MainAssembly.m in Sources */,
 				1F32F7F723F52AE900685A3A /* ImageCollectionViewCell.m in Sources */,
 				1F32F7E923F5144E00685A3A /* MainPresenter.m in Sources */,
 			);
@@ -408,7 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F32F7C223F4099F00685A3A /* RainbowListTests.m in Sources */,
+				1F32F81523F582C400685A3A /* ImageServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +641,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FT7ZNMJMWK;
-				INFOPLIST_FILE = RainbowList/Info.plist;
+				INFOPLIST_FILE = "RainbowList/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,7 +659,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FT7ZNMJMWK;
-				INFOPLIST_FILE = RainbowList/Info.plist;
+				INFOPLIST_FILE = "RainbowList/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -595,8 +672,10 @@
 		};
 		1F32F7D523F4099F00685A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC971AB60E72A3AB3C0F83A /* Pods-RainbowList-RainbowListTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RainbowListTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -614,8 +693,10 @@
 		};
 		1F32F7D623F4099F00685A3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2477704CEBBFB5732A6F376 /* Pods-RainbowList-RainbowListTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RainbowListTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;

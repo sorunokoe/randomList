@@ -10,5 +10,5 @@
 #import "MainProtocols.h"
 
 @interface MainRouter : NSObject <MainWireframeProtocol>
-+(UIViewController*)createModule;
+
 @end

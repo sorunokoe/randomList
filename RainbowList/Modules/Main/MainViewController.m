@@ -18,6 +18,18 @@
     NSString* cellIdentifier;
 }
 
+- (instancetype)initWithAssembly:(MainAssembly *)assembly{
+    UICollectionViewFlowLayout* layout = [[UICollectionViewFlowLayout alloc]init];
+    layout.itemSize = CGSizeMake(100, 100);
+    layout.sectionInset = UIEdgeInsetsMake(5, 5, 5, 5);
+    self = [super initWithCollectionViewLayout:layout];
+    if (self)
+    {
+        _assembly = assembly;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self configureUI];

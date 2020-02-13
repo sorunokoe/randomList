@@ -1,16 +1,16 @@
 //
-//  ImageRandomService.h
+//  ServiceAssembly.h
 //  RainbowList
 //
 //  Created by Yeskendir Salgara on 2/13/20.
 //  Copyright © 2020 Yeskendir Salgara. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TyphoonAssembly.h"
 #import "ImageService.h"
 
-@interface ImageRandomService : NSObject <ImageService>
+@interface ServiceAssembly : TyphoonAssembly
 
-@property (nonatomic, strong) NSURL* serviceURL;
+-(id<ImageService>) imageService;
 
 @end
