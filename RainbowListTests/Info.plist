@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>TyphoonGlobalConfigFilenames</key>
-	<array>
-		<string>Configuration.plist</string>
-	</array>
-	<key>TyphoonInitialAssemblies</key>
-	<array>
-		<string>ApplicationAssembly</string>
-		<string>MainAssembly</string>
-		<string>ServiceAssembly</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

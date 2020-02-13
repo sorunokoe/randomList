@@ -23,8 +23,8 @@
 		1F32F80B23F56BB300685A3A /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F32F80A23F56BB300685A3A /* Configuration.plist */; };
 		1F32F80E23F56E0A00685A3A /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F80D23F56E0A00685A3A /* ApplicationAssembly.m */; };
 		1F32F81523F582C400685A3A /* ImageServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F81423F582C400685A3A /* ImageServiceTests.m */; };
-		7BC5398C80C6E7B6665EF39B /* libPods-RainbowList-RainbowListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE088D10671EA4C35F741B5 /* libPods-RainbowList-RainbowListTests.a */; };
-		9ED44F8CE87106E41356CF01 /* libPods-RainbowList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958FE7F804078A05416C77FD /* libPods-RainbowList.a */; };
+		3689D2B0D7E09854AE5F1FBF /* libPods-RainbowList-RainbowListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBEEDFBAA2E32C1565F4961 /* libPods-RainbowList-RainbowListTests.a */; };
+		756C4608A8500016D893716F /* libPods-RainbowList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EB1D2DC2377757CD809AEC /* libPods-RainbowList.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AE088D10671EA4C35F741B5 /* libPods-RainbowList-RainbowListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowList-RainbowListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F32F7A223F4099E00685A3A /* RainbowList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F32F7A523F4099E00685A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F32F7A623F4099E00685A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,10 +80,11 @@
 		1F32F80D23F56E0A00685A3A /* ApplicationAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
 		1F32F81423F582C400685A3A /* ImageServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageServiceTests.m; sourceTree = "<group>"; };
 		6CC16CD47D0471ECF757722F /* Pods-RainbowList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList.release.xcconfig"; path = "Target Support Files/Pods-RainbowList/Pods-RainbowList.release.xcconfig"; sourceTree = "<group>"; };
-		958FE7F804078A05416C77FD /* libPods-RainbowList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B369A949F138150CCE80053 /* Pods-RainbowList-RainbowListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList-RainbowListTests.debug.xcconfig"; path = "Target Support Files/Pods-RainbowList-RainbowListTests/Pods-RainbowList-RainbowListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F981A54CF34831B0E6AA41A /* Pods-RainbowList-RainbowListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList-RainbowListTests.release.xcconfig"; path = "Target Support Files/Pods-RainbowList-RainbowListTests/Pods-RainbowList-RainbowListTests.release.xcconfig"; sourceTree = "<group>"; };
 		A82198A0093E871EC9DF415D /* Pods-RainbowList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList.debug.xcconfig"; path = "Target Support Files/Pods-RainbowList/Pods-RainbowList.debug.xcconfig"; sourceTree = "<group>"; };
-		ACC971AB60E72A3AB3C0F83A /* Pods-RainbowList-RainbowListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList-RainbowListTests.debug.xcconfig"; path = "Target Support Files/Pods-RainbowList-RainbowListTests/Pods-RainbowList-RainbowListTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C2477704CEBBFB5732A6F376 /* Pods-RainbowList-RainbowListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowList-RainbowListTests.release.xcconfig"; path = "Target Support Files/Pods-RainbowList-RainbowListTests/Pods-RainbowList-RainbowListTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBBEEDFBAA2E32C1565F4961 /* libPods-RainbowList-RainbowListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowList-RainbowListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EB1D2DC2377757CD809AEC /* libPods-RainbowList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED44F8CE87106E41356CF01 /* libPods-RainbowList.a in Frameworks */,
+				756C4608A8500016D893716F /* libPods-RainbowList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC5398C80C6E7B6665EF39B /* libPods-RainbowList-RainbowListTests.a in Frameworks */,
+				3689D2B0D7E09854AE5F1FBF /* libPods-RainbowList-RainbowListTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +117,8 @@
 		1D755A395D5BD2C0D899370F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				958FE7F804078A05416C77FD /* libPods-RainbowList.a */,
-				1AE088D10671EA4C35F741B5 /* libPods-RainbowList-RainbowListTests.a */,
+				D2EB1D2DC2377757CD809AEC /* libPods-RainbowList.a */,
+				CBBEEDFBAA2E32C1565F4961 /* libPods-RainbowList-RainbowListTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,8 +282,8 @@
 			children = (
 				A82198A0093E871EC9DF415D /* Pods-RainbowList.debug.xcconfig */,
 				6CC16CD47D0471ECF757722F /* Pods-RainbowList.release.xcconfig */,
-				ACC971AB60E72A3AB3C0F83A /* Pods-RainbowList-RainbowListTests.debug.xcconfig */,
-				C2477704CEBBFB5732A6F376 /* Pods-RainbowList-RainbowListTests.release.xcconfig */,
+				8B369A949F138150CCE80053 /* Pods-RainbowList-RainbowListTests.debug.xcconfig */,
+				8F981A54CF34831B0E6AA41A /* Pods-RainbowList-RainbowListTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F32F7D423F4099F00685A3A /* Build configuration list for PBXNativeTarget "RainbowListTests" */;
 			buildPhases = (
-				A92E993EEA8E78C9589C2394 /* [CP] Check Pods Manifest.lock */,
+				FD537E4852E47FA480926C5F /* [CP] Check Pods Manifest.lock */,
 				1F32F7B923F4099F00685A3A /* Sources */,
 				1F32F7BA23F4099F00685A3A /* Frameworks */,
 				1F32F7BB23F4099F00685A3A /* Resources */,
@@ -416,28 +416,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A92E993EEA8E78C9589C2394 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RainbowList-RainbowListTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DF41351EB88F9CB6C780DCCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,6 +432,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RainbowList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD537E4852E47FA480926C5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainbowList-RainbowListTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -672,7 +672,7 @@
 		};
 		1F32F7D523F4099F00685A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACC971AB60E72A3AB3C0F83A /* Pods-RainbowList-RainbowListTests.debug.xcconfig */;
+			baseConfigurationReference = 8B369A949F138150CCE80053 /* Pods-RainbowList-RainbowListTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -693,7 +693,7 @@
 		};
 		1F32F7D623F4099F00685A3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2477704CEBBFB5732A6F376 /* Pods-RainbowList-RainbowListTests.release.xcconfig */;
+			baseConfigurationReference = 8F981A54CF34831B0E6AA41A /* Pods-RainbowList-RainbowListTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;

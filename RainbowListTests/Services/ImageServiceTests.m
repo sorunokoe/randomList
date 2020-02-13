@@ -23,7 +23,6 @@
 }
 
 - (void)setUp {
-    
     ServiceAssembly *assembly = [[ServiceAssembly new] activated];
     TyphoonConfigPostProcessor* config = [TyphoonConfigPostProcessor forResourceNamed:@"Configuration.plist"];
     [assembly attachDefinitionPostProcessor:config];
@@ -35,15 +34,21 @@
 }
 
 - (void)testImageReturned{
-    
     XCTestExpectation *imageExpectation = [self expectationWithDescription:@"image download"];
-
     [imageService getImage:^(UIImage *image) {
         XCTAssertNotNil(image);
         [imageExpectation fulfill];
     }];
-    
-    [self waitForExpectationsWithTimeout:1 handler:nil];
+    [self waitForExpectationsWithTimeout:10 handler:nil];
+}
+
+- (void)testAsyncBackgroundThreadImageDownloaded{
+    XCTestExpectation *imageExpectation = [self expectationWithDescription:@"image download"];
+    [imageService getImage:^(UIImage *image) {
+        dispatch_assert_queue(dispatch_get_main_queue());
+        [imageExpectation fulfill];
+    }];
+    [self waitForExpectationsWithTimeout:10 handler:nil];
     
 }
 

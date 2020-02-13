@@ -10,11 +10,9 @@ target 'RainbowList' do
 
   # Promises
   pod 'Bolts'
-
+  
   target 'RainbowListTests' do
 	pod 'Typhoon'
   end
-
-
 
 end
